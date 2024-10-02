@@ -1,3 +1,76 @@
-html {
-    background-color: orange;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffb763;
+}
+.contenaire {
+  width: 690px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 15px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.menu-2 {
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  margin: 15px;
+  align-items: flex-start;
+}
+.menu-3 {
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 30px;
+}
+.icon {
+  width: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu-4 {
+  font-size: 50px;
+}
+.menu-5 {
+  background-color: #1fa1ff;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  padding: 13px;
+}
+.heart {
+   color: red;
+}
+.Partager {
+    width: 30px;
+}
+.start {
+    padding: 4px;
 }
